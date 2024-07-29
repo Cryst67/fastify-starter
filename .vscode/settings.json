@@ -1,0 +1,20 @@
+{
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [
+    80
+  ],
+  "[jsonc]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fastify-starter",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryst67/fastify-starter.git"
+  },
+  "author": "Aryan Swaminath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cryst67/fastify-starter/issues"
+  },
+  "homepage": "https://github.com/Cryst67/fastify-starter#readme",
+  "description": ""
+}
