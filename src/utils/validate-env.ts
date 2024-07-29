@@ -7,19 +7,15 @@ const envSchema = z.object({
 	CORS_ORIGIN: z.string().optional()
 });
 
-const validateEnv = () => {
-	const parsedEnv = envSchema.safeParse(process.env);
+const parsedEnv = envSchema.safeParse(process.env);
 
-	if (!parsedEnv.success) {
-		console.error('Missing environment variables');
-		parsedEnv.error.issues.map((issue) => {
-			console.error(issue.path[0], issue.message);
-		});
-		process.exit(1);
-	}
-};
-
-export default validateEnv;
+if (!parsedEnv.success) {
+	console.error('Missing environment variables');
+	parsedEnv.error.issues.map((issue) => {
+		console.error(issue.path[0], issue.message);
+	});
+	process.exit(1);
+}
 
 declare global {
 	// eslint-disable-next-line @typescript-eslint/no-namespace
