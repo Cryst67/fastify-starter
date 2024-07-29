@@ -26,7 +26,8 @@
 		"fastify": "^4.28.1",
 		"fastify-socket.io": "^5.0.0",
 		"ioredis": "^5.4.1",
-		"socket.io": "^4.7.5"
+		"socket.io": "^4.7.5",
+		"zod": "^3.23.8"
 	},
 	"devDependencies": {
 		"@rollup/plugin-alias": "^5.1.0",
